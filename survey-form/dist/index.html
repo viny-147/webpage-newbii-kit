@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  
+  <form id="survey-form">
+    <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for reaching us..!</p>
+    <label for="name"class="form-label" id="name-label">Name</label><br>
+    <input type="text" id="name" name="name" class="form-control" placeholder="Name" requried>
+    
+    <label for="email"class="form-label" id="email-label">Email</label><br>
+    <input type="email" id="email" name="email" class="form-control" placeholder="example@email.com" requried>
+     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div><br>
+    
+     <label for="age"class="form-label" id="number-label">Age</label><br>
+    <input type="number" id="number" name="age" class="form-control" placeholder="Age" min="18" max="100"><br>
+    
+    
+    
+    <div class="form-group">
+    <label for="dropdown">What is your Role</label>
+    <select class="form-control" id="dropdown">
+      <option>Select any one</option>
+      <option>Intern</option>
+      <option>Developer</option>
+      <option>Analyst</option>
+      <option>Designer</option>
+      <option>Customer</option>
+    </select>
+  </div><br>
+    <label for="gender">Does our service needed to be improved?</label>
+    <div class="form-check" id="service"> 
+    <input class="form-check-input"type="radio" name="notneeded">
+      <label class="form-check-label" for="notneeded">Your service is good</label>
+    </div>
+    <div class="form-check"> 
+    <input class="form-check-input"type="radio" name="needed">
+      <label class="form-check-label" for="needed">Need to be improved</label>
+    </div>
+    <div class="form-check"> 
+    <input class="form-check-input"type="radio" name="satisfying">
+      <label class="form-check-label" for="satisfiying">I am satisfied</label>
+    </div><br>
+    
+<div class="form-group">
+    <label for="dropdowm1">How was your experince?</label>
+    <select class="form-control" id="dropdowm1">
+      <option>Select any one</option>
+      <option>Good</option>
+      <option>Not bad</option>
+      <option>Need improvement</option>
+      <option>Bad</option>
+    </select>
+  </div><br>  
+    
+    
+    <label for="improve-ckeck">What is needed to be improved? (your selection can be multiple)</label>    
+    <div class="form-check" id="improve-ckeck">
+  <input class="form-check-input" type="checkbox" value="ui" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    User Interface
+  </label>
+</div>
+    
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="easy" id="flexCheckDefault1">
+  <label class="form-check-label" for="flexCheckDefault1">
+    Easy to use
+  </label>
+    </div>     
+       <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="moreprograms" id="flexCheckDefault2">
+  <label class="form-check-label" for="flexCheckDefault2">
+    Implement more programs
+  </label>
+</div>
+      
+       <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="content" id="flexCheckDefault3">
+  <label class="form-check-label" for="flexCheckDefault3">
+    Content
+  </label>
+      </div>         
+   <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="quality" id="flexCheckDefault4">
+  <label class="form-check-label" for="flexCheckDefault4">
+    Qualtiy
+  </label><br>
+      </div>
+    <div class="form-group">
+    <label for="txtarea">Write your feedback</label>
+    <textarea class="form-control" id="txtarea" rows="4"></textarea>
+  </div>
+   <button id="submit" type="button"class="btn btn-block">Submit!</button> 
+  </form>
+</body>
+<!-- partial -->
+  
+</body>
+</html>

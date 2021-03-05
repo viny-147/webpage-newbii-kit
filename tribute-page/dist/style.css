@@ -1,0 +1,33 @@
+body{
+  background-color:#16c79a;
+}
+#title{
+  text-align:center;
+  color:#19456b;
+}
+#title h2{
+  color:#e7d9ea;
+  font-size:20px;
+}
+#img-div img{
+  width:100%;
+  height:auto;
+  padding:3% 10%;
+}
+#img-caption{
+  text-align:center;
+  color:#e7d9ea;
+}
+#tribute-info p{
+  text-align:left;
+  background-color:#11698e;
+  padding:10px;
+  color:white;
+  border-radius:10px;
+}
+.list-styling{
+  color: white;
+}
+#tribute-link{
+  color:#19456b;
+}

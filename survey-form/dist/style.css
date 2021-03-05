@@ -1,0 +1,22 @@
+body{
+ background-color:#6155a6;
+  font-family:ubuntu;
+}
+#title,p{
+  text-align:center;
+  font-weight:bold;
+}
+#survey-form{
+  background-color:#ffe6e6;
+  padding:7% 10%;
+  margin:50px;
+  border-radius:10px;
+  color:#a685e2;
+  font-weight:bold;
+}
+
+#submit{
+  color:white;
+  font-weight:bold;
+  background-color:#6155a6;
+}
